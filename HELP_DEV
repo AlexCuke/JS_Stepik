@@ -1,0 +1,8 @@
+F5 - Запустить отладку (Start Debugging).
+Shift + F5 - Остановить отладку (Stop Debugging).
+F10 - Выполнить шаг не заходя в функцию (Step Over).
+F11 - Выполнить шаг с входом функцию (Step Into).
+Shift + F11 - Выйти из функции (Step Out).
+Ctrl + Shift + F5 - Перезапустить отладку (Restart Debugging).
+Ctrl + K, Ctrl + I - Показать подсказку по переменной (Show Hover).
+Ctrl + Shift + Y - Открыть панель отладки (Debug Console).

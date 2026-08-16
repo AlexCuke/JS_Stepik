@@ -1,4 +1,20 @@
 "use strict";
+//Массивы
+
+const arr10 = [10, 20, 30];
+console.log(arr10);
+
+//Индекс
+console.log(arr10[0]);
+
+//Длина
+console.log(arr10.length);
+
+// .at - переходим к индексу
+console.log(arr10.at(1.5));
+
+// length - 1  последнее значение
+console.log(arr10[arr10.length - 1]);
 
 //Array.from()
 

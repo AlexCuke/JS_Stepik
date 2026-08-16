@@ -1,5 +1,7 @@
 "use strict";
 
+//Array.from
+
 //Поиск обьекта arr.includes(значение для поиска, с какого индекса массива ищем)
 
 const obj = { id: "i" };
@@ -62,8 +64,8 @@ console.log(everElem);
 
 //методы преобразования массивов (не изменяют начсальный массив)
 //array.map() - создает ноdый массив применяя функцию к каждому элементу текущего
-const arr = [10, 20, 30, 20];
-const newArr = arr.map((val) => val * 2);
+const arr8 = [10, 20, 30, 20];
+const newArr = arr8.map((val) => val * 2);
 console.log(newArr);
 
 const newArr1 = arr.map((val, idx) => {
@@ -122,8 +124,8 @@ console.log(newflat);
 // разворачивает массив на 1 уровень (может принять на глубину распаковки)
 //Исходный массив не меняется
 const arr5 = [1, 2, 3];
-const result = arr5.flatMap((val) => [val, val ** 2]);
-console.log(result);
+const result2 = arr5.flatMap((val) => [val, val ** 2]);
+console.log(result2);
 
 //arr.slice() создает массив из  куска массива
 const arr6 = [1, 2, 3, 4, 5];
